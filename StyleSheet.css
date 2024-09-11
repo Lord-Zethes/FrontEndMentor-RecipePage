@@ -1,0 +1,140 @@
+
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+
+}
+.fixed-content {
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+h1{
+    margin-left: .938rem;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    margin-left: .938rem;
+}
+
+ul li{
+    flex-wrap: wrap;
+   margin-bottom: .625rem;
+   font-family:'outfit', sans-serif;
+   gap: 20%;
+   
+}
+
+ol li{
+    margin-bottom: .625rem;
+    font-family:'outfit', sans-serif;
+    margin-left: .313rem;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    margin-left: .938rem;
+}
+
+@font-face {
+    font-family: Outfit ;
+    src: url(https://fonts.google.com/specimen/Outfit;);
+}
+
+p{
+    font-family:'outfit', sans-serif;
+    font-size: 1rem;
+    margin-left: 2.813rem;
+}
+
+.rectangle {
+
+        height: fit-content;
+        width:  47rem;
+        border: .313rem solid hsl(0, 0, 100%);
+        border-radius: .938rem;
+        background-color: hsl(0, 0%, 100%);
+        text-align: left;
+        margin: auto;
+        padding-top: .938rem;
+        padding-left: .938rem;
+        padding-bottom: .938rem;
+        padding-right: .938rem;
+       
+        
+}
+.roserectangle{
+    padding: .063rem;
+    height: 12.125rem;
+    width: 41.875rem;
+    border-radius: .938rem;
+    background-color: hsl(330, 100%, 98%);
+    text-align: left;
+ 
+}
+.roundimage{
+    display: block;
+    width:  41.875rem;
+    height: 21.875rem;
+    border: 0rem solid black;
+    border-radius: .938rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: none;
+    height: .063rem;
+    background-color: #333; 
+    
+     
+  }
+
+.dashed {
+    border: .125rem dashed black;
+}
+
+td {
+    
+    padding: .05rem;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-top: 3%;
+    
+
+  }
+  .center {
+    margin: auto;
+    text-align: center;
+  
+ 
+  }
+
+table, td {
+    
+   border-collapse: collapse;
+   
+}
+
+.colorfortable {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+table {
+    margin-top: 2%;
+    width: 100%;
+ 
+}
+
+
+table tr:last-child td {
+    border-bottom: none;
+}
